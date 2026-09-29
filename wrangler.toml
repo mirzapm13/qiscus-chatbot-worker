@@ -19,4 +19,4 @@ bindings = [
 
 [[migrations]]
 tag = "v1"
-new_classes = ["RoomDebouncer"]
+new_sqlite_classes = ["RoomDebouncer"]
