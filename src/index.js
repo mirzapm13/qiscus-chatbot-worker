@@ -126,9 +126,9 @@ Output strictly valid JSON: {"category": "TECHNICAL_ISSUE" | "CHANGE_PASSWORD" |
     // 4. Formulate reply
     let reply = '';
     if (category === 'TECHNICAL_ISSUE') {
-      reply = 'Halo! Untuk kendala teknis/koneksi internet, silakan langsung hubungi Teknisi Lapangan kami via WhatsApp: https://wa.me/6281234567890';
+      reply = 'Halo! Untuk kendala teknis/koneksi internet, silakan langsung hubungi nomor layanan gangguan kami via WhatsApp: https://wa.me/6282136862020';
     } else if (category === 'CHANGE_PASSWORD') {
-      reply = 'Halo! Untuk pergantian password Wi-Fi / konfigurasi router, silakan hubungi Admin Layanan kami: https://wa.me/6281987654321';
+      reply = 'Halo! Untuk pergantian nama dan password Wi-Fi / konfigurasi modem, silakan hubungi layanan teknisi kami via: https://wa.me/6282136862020';
     } else {
       // Do nothing. Leave the chat open for human agents in Qiscus.
       return;
