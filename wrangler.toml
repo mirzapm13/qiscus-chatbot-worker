@@ -8,6 +8,7 @@ binding = "AI"
 
 # KV Storage for the 24h Cooldown
 [[kv_namespaces]]
+da317be303674233b16181c2a49182fe
 binding = "CHAT_COOLDOWN"
 id = "<YOUR_KV_NAMESPACE_ID>"
 
