@@ -1,0 +1,22 @@
+name = "qiscus-isp-bot"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# Cloudflare Workers AI Binding
+[ai]
+binding = "AI"
+
+# KV Storage for the 24h Cooldown
+[[kv_namespaces]]
+binding = "CHAT_COOLDOWN"
+id = "<YOUR_KV_NAMESPACE_ID>"
+
+# Durable Object for the 5-minute debouncing alarm
+[durable_objects]
+bindings = [
+  { name = "ROOM_DEBOUNCER", class_name = "RoomDebouncer" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["RoomDebouncer"]
