@@ -1,5 +1,5 @@
 {
-    "name": "qiscus-isp-bot",
+    "name": "qiscus-chatbot-worker",
     "version": "1.0.0",
     "private": true,
     "scripts": {
